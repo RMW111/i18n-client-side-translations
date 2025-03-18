@@ -6,12 +6,14 @@ const mockTranslationsFromBackend = {
     'index.description': 'Translated description for IndexPage',
     'page1.title': 'Translated title for Page1',
     'page1.description': 'Translated description for Page1',
+    'common': 'Some common translation',
   },
   ru: {
     'index.title': 'Переведенный заголовок для IndexPage',
     'index.description': 'Переведенное описание для IndexPage',
     'page1.title': 'Переведенный заголовок для Page1',
     'page1.description': 'Переведенное описание для Page1',
+    'common': 'Какой-то общий перевод',
   },
 };
 

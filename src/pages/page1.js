@@ -6,6 +6,7 @@ import Link from "next/link";
 const translationKeys = {
   title: 'page1.title',
   description: 'page1.description',
+  common: 'common',
 };
 
 export const getServerSideProps = GSSP(Object.values(translationKeys));
@@ -17,6 +18,7 @@ export default function Page1() {
     <div className={styles.page}>
       <p>Page1 title: {t(translationKeys.title)}</p>
       <p>Page1 description: {t(translationKeys.description)}</p>
+      <p>Page1 common translation: {t(translationKeys.common)}</p>
       <Link href="/" className={styles.button}>Go to IndexPage</Link>
     </div>
   );
