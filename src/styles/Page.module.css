@@ -1,0 +1,15 @@
+.page {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: cornsilk;
+    color: black;
+    padding: 10px 16px;
+    cursor: pointer;
+}
